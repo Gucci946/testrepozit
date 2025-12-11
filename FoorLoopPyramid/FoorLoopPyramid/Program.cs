@@ -17,12 +17,29 @@ namespace FoorLoopPyramid
             Console.WriteLine("\nPüramiid:\n");
 
             for (i = 1; i <= n; i++)
-            {               
+            {
                 for (j = 1; j <= n - i; j++)
                 {
                     Console.Write(" ");
                 }
-                
+
+                for (j = 1; j <= 2 * i - 1; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
+
+            Console.ReadKey();
+
+            for (i = n; i >= 1; i--)
+            {
+                for (j = 1; j <= n - i; j++)
+                {
+                    Console.Write(" ");
+                }
+
                 for (j = 1; j <= 2 * i - 1; j++)
                 {
                     Console.Write("*");
