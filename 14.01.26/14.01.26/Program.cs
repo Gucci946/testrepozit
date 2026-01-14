@@ -34,6 +34,7 @@
             }
         }
 
+        // 1. meetod – for loop
         static void ForMethod()
         {
             for (int i = 0; i < 3; i++)
@@ -42,6 +43,7 @@
             }
         }
 
+        // 2. meetod – while loop
         static void WhileMethod()
         {
             int i = 0;
@@ -52,6 +54,7 @@
             }
         }
 
+        // 3. meetod – kahe arvu liitmine
         static void SumMethod()
         {
             Console.Write("Sisesta esimene arv: ");
@@ -64,6 +67,7 @@
             Console.WriteLine("Summa: " + sum);
         }
 
+        // 4. meetod – vanuse küsimine
         static void AgeMethod()
         {
             Console.Write("Sisesta oma vanus: ");
