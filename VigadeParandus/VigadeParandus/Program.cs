@@ -7,6 +7,9 @@
             Console.WriteLine("Peab kasutama switchi");
             Console.WriteLine("1. Tagurpidi püramiid");
             Console.WriteLine("2. Ristikülik");
+            Console.WriteLine("3. Püramiid");
+
+            Console.Clear();
 
             //teha switch, kus on kolm case valikut
             string choice = Console.ReadLine();
@@ -92,7 +95,6 @@
                 Console.WriteLine();
             }
         }
-
     }
 }
 
